@@ -16,26 +16,7 @@
 4. npm install vue-chartjs chart.js
 4. npm run serve
 
-## login credentials [in case you forget your account credentials, you can use mine)
-- userid: evelynpeh
-- pin: 123123
-- otp: 999999
-
-
-## things to note
-every tbank api require a Header as input 
-
-for example: 
-- headerObj = {'Header': 
-                  {
-                  'serviceName': serviceName,
-                  'userID': userID,
-                  'PIN': PIN,
-                  'OTP': OTP
-                  }
-               }
-
-Since userid, pin, otp does not change, these value has been coded to stored globally once they login 
-the headerObj variable can be access globally by:
--  var headerObj = this.$store.state.headerObj
--  to change the servicename: headerObj["serviceName"] = "getCustomerStocks"           
+## login credentials
+- userid: A998998
+- pin: 980046
+- otp: 999999 [may require actual verification]
